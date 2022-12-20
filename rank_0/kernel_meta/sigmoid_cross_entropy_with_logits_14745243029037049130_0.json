@@ -1,0 +1,15 @@
+{
+    "batchBindOnly":1,
+    "binFileName":"sigmoid_cross_entropy_with_logits_14745243029037049130_0",
+    "binFileSuffix":".o",
+    "blockDim":32,
+    "kernelName":"sigmoid_cross_entropy_with_logits_14745243029037049130_0__kernel0",
+    "magic":"RT_DEV_BINARY_MAGIC_ELF",
+    "opParaSize":0,
+    "parameters":[
+        0,
+        0,
+        0
+    ],
+    "sha256":"bee0e9e15f53e78a809af3a4900e0a4ebddcd4cb73ddb77ff34997af234e52d9"
+}

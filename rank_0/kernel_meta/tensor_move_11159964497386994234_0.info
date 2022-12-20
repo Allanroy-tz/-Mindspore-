@@ -1,0 +1,201 @@
+{
+    "job_content": {
+        "SocInfo": {
+            "autoTilingMode": "NO_TUNE",
+            "coreNum": "",
+            "coreType": "AiCore",
+            "deviceId": "0",
+            "l1Fusion": "false",
+            "l2Fusion": "false",
+            "l2Mode": "2",
+            "mdl_bank_path": "",
+            "offlineTune": false,
+            "op_bank_path": "",
+            "op_bank_update": false,
+            "op_debug_dir": "./rank_0/",
+            "op_debug_level": "3",
+            "op_impl_mode": "",
+            "op_impl_mode_list": [],
+            "socVersion": "Ascend910A",
+            "vector_fp_ceiling": ""
+        },
+        "full_name": "Default/TensorMove-op369",
+        "fusion_op_name": "tensor_move_11159964497386994234_0",
+        "graph_name": "",
+        "l1_size": -1,
+        "op_list": [
+            {
+                "name": "x_0",
+                "output_desc": [
+                    {
+                        "L1_addr_offset": 0,
+                        "L1_fusion_type": -1,
+                        "L1_workspace_size": -1,
+                        "addr_type": 0,
+                        "data_type": "int32",
+                        "dtype": "int32",
+                        "format": "ND",
+                        "name": "x_0",
+                        "ori_format": "NCHW",
+                        "ori_shape": [
+                            16000,
+                            39
+                        ],
+                        "param_type": "required",
+                        "range": [
+                            [
+                                16000,
+                                16000
+                            ],
+                            [
+                                39,
+                                39
+                            ]
+                        ],
+                        "shape": [
+                            16000,
+                            39
+                        ],
+                        "slice_offset": [],
+                        "split_index": 0,
+                        "total_shape": [],
+                        "valid": true,
+                        "valid_shape": []
+                    }
+                ],
+                "type": "Data"
+            },
+            {
+                "build_type": "accurately_build",
+                "dynamic_compile_static": false,
+                "func_name": "tensor_move",
+                "input_desc": [
+                    {
+                        "L1_addr_offset": 0,
+                        "L1_fusion_type": -1,
+                        "L1_workspace_size": -1,
+                        "addr_type": 0,
+                        "data_type": "int32",
+                        "dtype": "int32",
+                        "format": "ND",
+                        "name": "x_0",
+                        "ori_format": "NCHW",
+                        "ori_shape": [
+                            16000,
+                            39
+                        ],
+                        "param_type": "required",
+                        "range": [
+                            [
+                                16000,
+                                16000
+                            ],
+                            [
+                                39,
+                                39
+                            ]
+                        ],
+                        "shape": [
+                            16000,
+                            39
+                        ],
+                        "slice_offset": [],
+                        "split_index": 0,
+                        "total_shape": [],
+                        "valid": true,
+                        "valid_shape": []
+                    }
+                ],
+                "int64mode": false,
+                "max_kernel_id": 10,
+                "miss_support_info": "",
+                "module_name": "impl.tensor_move",
+                "name": "Default/TensorMove-op369",
+                "op_name": "tensor_move_11159964497386994234_0",
+                "ori_name": [
+                    "Default/TensorMove-op369"
+                ],
+                "output_data_desc": [
+                    {
+                        "L1_addr_offset": 0,
+                        "L1_fusion_type": -1,
+                        "L1_workspace_size": -1,
+                        "addr_type": 0,
+                        "data_type": "int32",
+                        "dtype": "int32",
+                        "format": "ND",
+                        "ori_format": "NCHW",
+                        "ori_shape": [
+                            16000,
+                            39
+                        ],
+                        "param_type": "required",
+                        "range": [
+                            [
+                                16000,
+                                16000
+                            ],
+                            [
+                                39,
+                                39
+                            ]
+                        ],
+                        "shape": [
+                            16000,
+                            39
+                        ],
+                        "slice_offset": [],
+                        "split_index": 0,
+                        "total_shape": [],
+                        "valid_shape": []
+                    }
+                ],
+                "output_desc": [
+                    {
+                        "L1_addr_offset": 0,
+                        "L1_fusion_type": -1,
+                        "L1_workspace_size": -1,
+                        "addr_type": 0,
+                        "data_type": "int32",
+                        "dtype": "int32",
+                        "format": "ND",
+                        "name": "y",
+                        "ori_format": "NCHW",
+                        "ori_shape": [
+                            16000,
+                            39
+                        ],
+                        "param_type": "required",
+                        "range": [
+                            [
+                                16000,
+                                16000
+                            ],
+                            [
+                                39,
+                                39
+                            ]
+                        ],
+                        "shape": [
+                            16000,
+                            39
+                        ],
+                        "slice_offset": [],
+                        "split_index": 0,
+                        "total_shape": [],
+                        "valid": true,
+                        "valid_shape": []
+                    }
+                ],
+                "pattern": "Opaque",
+                "py_module_path": "/usr/local/Ascend/opp/op_impl/built-in/ai_core/tbe",
+                "type": "TensorMove",
+                "unknown_shape": false
+            }
+        ],
+        "scope_id": -1
+    },
+    "job_id": 25944,
+    "job_type": "Compile",
+    "source_id": 0
+}

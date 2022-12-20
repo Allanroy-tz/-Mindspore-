@@ -1,0 +1,24 @@
+{
+    "binFileName":"apply_adam_d_10063912489267936516_0",
+    "binFileSuffix":".o",
+    "blockDim":31,
+    "kernelName":"apply_adam_d_10063912489267936516_0__kernel0",
+    "magic":"RT_DEV_BINARY_MAGIC_ELF",
+    "opParaSize":0,
+    "parameters":[
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "sha256":"edb965f46b70a3ee145b1dd5089a558648c07ca7fad9220ab38a35f2baf0ebb4"
+}

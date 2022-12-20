@@ -1,0 +1,16 @@
+{
+    "KBHit":false,
+    "batchBindOnly":1,
+    "binFileName":"mul_17677305445909256427_0",
+    "binFileSuffix":".o",
+    "blockDim":32,
+    "kernelName":"mul_17677305445909256427_0__kernel0",
+    "magic":"RT_DEV_BINARY_MAGIC_ELF",
+    "opParaSize":0,
+    "parameters":[
+        0,
+        0,
+        0
+    ],
+    "sha256":"0b318fad33923eaa315bfe67f7dd0293daac23b13e5f2a49e920d5ceaa19b838"
+}

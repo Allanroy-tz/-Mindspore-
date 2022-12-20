@@ -1,0 +1,22 @@
+{
+    "binFileName":"apply_ftrl_d_9547835834869254011_0",
+    "binFileSuffix":".o",
+    "blockDim":31,
+    "kernelName":"apply_ftrl_d_9547835834869254011_0__kernel0",
+    "magic":"RT_DEV_BINARY_MAGIC_ELF",
+    "opParaSize":0,
+    "parameters":[
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "sha256":"6242f5b24d36277652af3e1da115edd667829bfbf276b6ffe89db9b6770c91e8"
+}

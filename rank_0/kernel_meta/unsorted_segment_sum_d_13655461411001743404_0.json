@@ -1,0 +1,14 @@
+{
+    "binFileName":"unsorted_segment_sum_d_13655461411001743404_0",
+    "binFileSuffix":".o",
+    "blockDim":32,
+    "kernelName":"unsorted_segment_sum_d_13655461411001743404_0__kernel0",
+    "magic":"RT_DEV_BINARY_MAGIC_ELF",
+    "opParaSize":0,
+    "parameters":[
+        0,
+        0,
+        1
+    ],
+    "sha256":"a91de200dff063c072a5da1b4cfe6a2a397c8f918261056fe52b141e5cf7f0a9"
+}

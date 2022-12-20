@@ -1,0 +1,462 @@
+{
+    "job_content": {
+        "SocInfo": {
+            "autoTilingMode": "NO_TUNE",
+            "coreNum": "",
+            "coreType": "AiCore",
+            "deviceId": "0",
+            "l1Fusion": "false",
+            "l2Fusion": "false",
+            "l2Mode": "2",
+            "mdl_bank_path": "",
+            "offlineTune": false,
+            "op_bank_path": "",
+            "op_bank_update": false,
+            "op_debug_dir": "./rank_0/",
+            "op_debug_level": "3",
+            "op_impl_mode": "",
+            "op_impl_mode_list": [],
+            "socVersion": "Ascend910A",
+            "vector_fp_ceiling": ""
+        },
+        "full_name": "Default/network-TrainStepWrap/optimizer_d-Adam/FusionOp_MatMul_Mul-op503",
+        "fusion_op_name": "te_fusion_mat_mul_mul_17347245993406173628_0",
+        "graph_name": "",
+        "l1_size": -1,
+        "op_list": [
+            {
+                "name": "Default/network-PredictWithSigmoid/network-WideDeepModel/dense_layer_1-DenseLayer/ReLU-op158",
+                "output_desc": [
+                    {
+                        "L1_addr_offset": 0,
+                        "L1_fusion_type": -1,
+                        "L1_workspace_size": -1,
+                        "addr_type": 0,
+                        "data_type": "float16",
+                        "dtype": "float16",
+                        "format": "FRACTAL_NZ",
+                        "name": "Default/network-PredictWithSigmoid/network-WideDeepModel/dense_layer_1-DenseLayer/ReLU-op158",
+                        "ori_format": "NCHW",
+                        "ori_shape": [
+                            16000,
+                            1024
+                        ],
+                        "output_index": 0,
+                        "shape": [
+                            64,
+                            1000,
+                            16,
+                            16
+                        ],
+                        "slice_offset": [],
+                        "split_index": 0,
+                        "total_shape": [],
+                        "valid_shape": []
+                    }
+                ],
+                "type": "Data"
+            },
+            {
+                "name": "Gradients/Default/network-PredictWithSigmoid/network-WideDeepModel/dense_layer_4-DenseLayer/gradReLU/ReluGrad-op288",
+                "output_desc": [
+                    {
+                        "L1_addr_offset": 0,
+                        "L1_fusion_type": -1,
+                        "L1_workspace_size": -1,
+                        "addr_type": 0,
+                        "data_type": "float16",
+                        "dtype": "float16",
+                        "format": "FRACTAL_NZ",
+                        "name": "Gradients/Default/network-PredictWithSigmoid/network-WideDeepModel/dense_layer_4-DenseLayer/gradReLU/ReluGrad-op288",
+                        "ori_format": "NCHW",
+                        "ori_shape": [
+                            16000,
+                            512
+                        ],
+                        "output_index": 0,
+                        "shape": [
+                            32,
+                            1000,
+                            16,
+                            16
+                        ],
+                        "slice_offset": [],
+                        "split_index": 0,
+                        "total_shape": [],
+                        "valid_shape": []
+                    }
+                ],
+                "type": "Data"
+            },
+            {
+                "name": "optional_0",
+                "output_desc": [
+                    {
+                        "data_type": 0,
+                        "name": "optional_0",
+                        "shape": "NULL"
+                    }
+                ],
+                "type": "Data"
+            },
+            {
+                "name": "optional_1",
+                "output_desc": [
+                    {
+                        "data_type": 0,
+                        "name": "optional_1",
+                        "shape": "NULL"
+                    }
+                ],
+                "type": "Data"
+            },
+            {
+                "name": "Default/data-28",
+                "output_desc": [
+                    {
+                        "L1_addr_offset": 0,
+                        "L1_fusion_type": -1,
+                        "L1_workspace_size": -1,
+                        "addr_type": 0,
+                        "data_type": "float32",
+                        "dtype": "float32",
+                        "format": "ND",
+                        "name": "Default/data-28",
+                        "ori_format": "NCHW",
+                        "ori_shape": [
+                            1
+                        ],
+                        "output_index": 0,
+                        "shape": [
+                            1
+                        ],
+                        "slice_offset": [],
+                        "split_index": 0,
+                        "total_shape": [],
+                        "valid_shape": []
+                    }
+                ],
+                "type": "Data"
+            },
+            {
+                "attr_desc": [
+                    true,
+                    false,
+                    0
+                ],
+                "attrs": [
+                    {
+                        "dtype": "bool",
+                        "name": "transpose_x1",
+                        "valid": true,
+                        "value": true
+                    },
+                    {
+                        "dtype": "bool",
+                        "name": "transpose_x2",
+                        "valid": true,
+                        "value": false
+                    },
+                    {
+                        "dtype": "int32",
+                        "name": "offset_x",
+                        "valid": true,
+                        "value": 0
+                    }
+                ],
+                "dynamic_compile_static": false,
+                "func_name": "mat_mul",
+                "input_desc": [
+                    {
+                        "L1_addr_offset": 0,
+                        "L1_fusion_type": -1,
+                        "L1_workspace_size": -1,
+                        "addr_type": 0,
+                        "data_type": "float16",
+                        "dtype": "float16",
+                        "format": "FRACTAL_NZ",
+                        "name": "Default/network-PredictWithSigmoid/network-WideDeepModel/dense_layer_1-DenseLayer/ReLU-op158",
+                        "ori_format": "NCHW",
+                        "ori_shape": [
+                            16000,
+                            1024
+                        ],
+                        "output_index": 0,
+                        "shape": [
+                            64,
+                            1000,
+                            16,
+                            16
+                        ],
+                        "slice_offset": [],
+                        "split_index": 0,
+                        "total_shape": [],
+                        "valid_shape": []
+                    },
+                    {
+                        "L1_addr_offset": 0,
+                        "L1_fusion_type": -1,
+                        "L1_workspace_size": -1,
+                        "addr_type": 0,
+                        "data_type": "float16",
+                        "dtype": "float16",
+                        "format": "FRACTAL_NZ",
+                        "name": "Gradients/Default/network-PredictWithSigmoid/network-WideDeepModel/dense_layer_4-DenseLayer/gradReLU/ReluGrad-op288",
+                        "ori_format": "NCHW",
+                        "ori_shape": [
+                            16000,
+                            512
+                        ],
+                        "output_index": 0,
+                        "shape": [
+                            32,
+                            1000,
+                            16,
+                            16
+                        ],
+                        "slice_offset": [],
+                        "split_index": 0,
+                        "total_shape": [],
+                        "valid_shape": []
+                    },
+                    {
+                        "data_type": 0,
+                        "name": "optional_0",
+                        "shape": "NULL"
+                    },
+                    {
+                        "data_type": 0,
+                        "name": "optional_1",
+                        "shape": "NULL"
+                    }
+                ],
+                "int64mode": false,
+                "module_name": "impl.mat_mul",
+                "name": "Gradients/Default/network-PredictWithSigmoid/network-WideDeepModel/dense_layer_5-DenseLayer/gradMatMul/MatMul-op318",
+                "op_name": "te_fusion_mat_mul_mul_17347245993406173628_0",
+                "ori_name": [
+                    "Default/network-TrainStepWrap/optimizer_d-Adam/FusionOp_MatMul_Mul-op503"
+                ],
+                "output_data_desc": [
+                    {
+                        "L1_addr_offset": 0,
+                        "L1_fusion_type": -1,
+                        "L1_workspace_size": -1,
+                        "addr_type": 0,
+                        "data_type": "float32",
+                        "dtype": "float32",
+                        "format": "FRACTAL_NZ",
+                        "ori_format": "NCHW",
+                        "ori_shape": [
+                            1024,
+                            512
+                        ],
+                        "param_type": "required",
+                        "range": [
+                            [
+                                32,
+                                32
+                            ],
+                            [
+                                64,
+                                64
+                            ],
+                            [
+                                16,
+                                16
+                            ],
+                            [
+                                16,
+                                16
+                            ]
+                        ],
+                        "shape": [
+                            32,
+                            64,
+                            16,
+                            16
+                        ],
+                        "slice_offset": [],
+                        "split_index": 0,
+                        "total_shape": [],
+                        "valid_shape": []
+                    }
+                ],
+                "output_desc": [
+                    {
+                        "L1_addr_offset": 0,
+                        "L1_fusion_type": -1,
+                        "L1_workspace_size": -1,
+                        "addr_type": 0,
+                        "data_type": "float32",
+                        "dtype": "float32",
+                        "format": "FRACTAL_NZ",
+                        "name": "Gradients/Default/network-PredictWithSigmoid/network-WideDeepModel/dense_layer_5-DenseLayer/gradMatMul/MatMul-op318",
+                        "ori_format": "NCHW",
+                        "ori_shape": [
+                            1024,
+                            512
+                        ],
+                        "output_index": 0,
+                        "shape": [
+                            32,
+                            64,
+                            16,
+                            16
+                        ],
+                        "slice_offset": [],
+                        "split_index": 0,
+                        "total_shape": [],
+                        "valid_shape": []
+                    }
+                ],
+                "pattern": "Matmul",
+                "py_module_path": "/usr/local/Ascend/opp/op_impl/built-in/ai_core/tbe",
+                "type": "MatMul",
+                "unknown_shape": false
+            },
+            {
+                "dynamic_compile_static": false,
+                "func_name": "mul",
+                "input_desc": [
+                    {
+                        "L1_addr_offset": 0,
+                        "L1_fusion_type": -1,
+                        "L1_workspace_size": -1,
+                        "addr_type": 0,
+                        "data_type": "float32",
+                        "dtype": "float32",
+                        "format": "FRACTAL_NZ",
+                        "name": "Gradients/Default/network-PredictWithSigmoid/network-WideDeepModel/dense_layer_5-DenseLayer/gradMatMul/MatMul-op318",
+                        "ori_format": "NCHW",
+                        "ori_shape": [
+                            1024,
+                            512
+                        ],
+                        "output_index": 0,
+                        "shape": [
+                            32,
+                            64,
+                            16,
+                            16
+                        ],
+                        "slice_offset": [],
+                        "split_index": 0,
+                        "total_shape": [],
+                        "valid_shape": []
+                    },
+                    {
+                        "L1_addr_offset": 0,
+                        "L1_fusion_type": -1,
+                        "L1_workspace_size": -1,
+                        "addr_type": 0,
+                        "data_type": "float32",
+                        "dtype": "float32",
+                        "format": "ND",
+                        "name": "Default/data-28",
+                        "ori_format": "NCHW",
+                        "ori_shape": [
+                            1
+                        ],
+                        "output_index": 0,
+                        "shape": [
+                            1
+                        ],
+                        "slice_offset": [],
+                        "split_index": 0,
+                        "total_shape": [],
+                        "valid_shape": []
+                    }
+                ],
+                "int64mode": false,
+                "module_name": "impl.mul",
+                "name": "Default/network-TrainStepWrap/optimizer_d-Adam/Mul-op320",
+                "op_name": "te_fusion_mat_mul_mul_17347245993406173628_0",
+                "ori_name": [
+                    "Default/network-TrainStepWrap/optimizer_d-Adam/FusionOp_MatMul_Mul-op503"
+                ],
+                "output_data_desc": [
+                    {
+                        "L1_addr_offset": 0,
+                        "L1_fusion_type": -1,
+                        "L1_workspace_size": -1,
+                        "addr_type": 0,
+                        "data_type": "float32",
+                        "dtype": "float32",
+                        "format": "FRACTAL_NZ",
+                        "ori_format": "NCHW",
+                        "ori_shape": [
+                            1024,
+                            512
+                        ],
+                        "param_type": "required",
+                        "range": [
+                            [
+                                32,
+                                32
+                            ],
+                            [
+                                64,
+                                64
+                            ],
+                            [
+                                16,
+                                16
+                            ],
+                            [
+                                16,
+                                16
+                            ]
+                        ],
+                        "shape": [
+                            32,
+                            64,
+                            16,
+                            16
+                        ],
+                        "slice_offset": [],
+                        "split_index": 0,
+                        "total_shape": [],
+                        "valid_shape": []
+                    }
+                ],
+                "output_desc": [
+                    {
+                        "L1_addr_offset": 0,
+                        "L1_fusion_type": -1,
+                        "L1_workspace_size": -1,
+                        "addr_type": 0,
+                        "data_type": "float32",
+                        "dtype": "float32",
+                        "format": "FRACTAL_NZ",
+                        "name": "Default/network-TrainStepWrap/optimizer_d-Adam/Mul-op320",
+                        "ori_format": "NCHW",
+                        "ori_shape": [
+                            1024,
+                            512
+                        ],
+                        "output_index": 0,
+                        "shape": [
+                            32,
+                            64,
+                            16,
+                            16
+                        ],
+                        "slice_offset": [],
+                        "split_index": 0,
+                        "total_shape": [],
+                        "valid_shape": []
+                    }
+                ],
+                "pattern": "ElemWise",
+                "py_module_path": "/usr/local/Ascend/opp/op_impl/built-in/ai_core/tbe",
+                "type": "Mul",
+                "unknown_shape": false
+            }
+        ],
+        "scope_id": 11
+    },
+    "job_id": 23934,
+    "job_type": "FusionOpCompile",
+    "source_id": 0
+}
