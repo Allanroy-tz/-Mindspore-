@@ -1,0 +1,15 @@
+epoch: 1, step: 25, wide_loss: 0.57032806, deep_loss: 0.58760124
+epoch: 2, step: 25, wide_loss: 0.5270668, deep_loss: 0.53159887
+epoch: 3, step: 25, wide_loss: 0.5036295, deep_loss: 0.5058268
+epoch: 4, step: 25, wide_loss: 0.49690816, deep_loss: 0.4986414
+epoch: 5, step: 25, wide_loss: 0.4910151, deep_loss: 0.4926607
+epoch: 6, step: 25, wide_loss: 0.48998272, deep_loss: 0.49161175
+epoch: 7, step: 25, wide_loss: 0.4831368, deep_loss: 0.48478737
+epoch: 8, step: 25, wide_loss: 0.48417556, deep_loss: 0.48585346
+epoch: 9, step: 25, wide_loss: 0.4696486, deep_loss: 0.47136116
+epoch: 10, step: 25, wide_loss: 0.4783159, deep_loss: 0.48006445
+epoch: 11, step: 25, wide_loss: 0.47590372, deep_loss: 0.4777013
+epoch: 12, step: 25, wide_loss: 0.4704747, deep_loss: 0.47232926
+epoch: 13, step: 25, wide_loss: 0.45964488, deep_loss: 0.46158192
+epoch: 14, step: 25, wide_loss: 0.469552, deep_loss: 0.47157517
+epoch: 15, step: 25, wide_loss: 0.46270558, deep_loss: 0.46483368

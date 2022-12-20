@@ -1,0 +1,16 @@
+2022-12-20 18:3711 == Rank: 0 == EvalCallBack model.eval(): dict_values([0.5192446886623411]); eval_time: 0s
+2022-12-20 18:3713 == Rank: 0 == EvalCallBack model.eval(): dict_values([0.6896963778042539]); eval_time: 0s
+2022-12-20 18:3715 == Rank: 0 == EvalCallBack model.eval(): dict_values([0.7255681215553871]); eval_time: 0s
+2022-12-20 18:3717 == Rank: 0 == EvalCallBack model.eval(): dict_values([0.738029189202903]); eval_time: 0s
+2022-12-20 18:3718 == Rank: 0 == EvalCallBack model.eval(): dict_values([0.7442547708395296]); eval_time: 0s
+2022-12-20 18:3720 == Rank: 0 == EvalCallBack model.eval(): dict_values([0.7497074663778766]); eval_time: 0s
+2022-12-20 18:3722 == Rank: 0 == EvalCallBack model.eval(): dict_values([0.7522253607056771]); eval_time: 0s
+2022-12-20 18:3724 == Rank: 0 == EvalCallBack model.eval(): dict_values([0.7539914150190665]); eval_time: 0s
+2022-12-20 18:3726 == Rank: 0 == EvalCallBack model.eval(): dict_values([0.7559342284346975]); eval_time: 0s
+2022-12-20 18:3728 == Rank: 0 == EvalCallBack model.eval(): dict_values([0.7575459117889314]); eval_time: 0s
+2022-12-20 18:3729 == Rank: 0 == EvalCallBack model.eval(): dict_values([0.7595545953833291]); eval_time: 0s
+2022-12-20 18:3731 == Rank: 0 == EvalCallBack model.eval(): dict_values([0.7598522411241531]); eval_time: 0s
+2022-12-20 18:3733 == Rank: 0 == EvalCallBack model.eval(): dict_values([0.7603354530174049]); eval_time: 0s
+2022-12-20 18:3735 == Rank: 0 == EvalCallBack model.eval(): dict_values([0.7605705262432064]); eval_time: 0s
+2022-12-20 18:3737 == Rank: 0 == EvalCallBack model.eval(): dict_values([0.7597464495214397]); eval_time: 0s
+2022-12-20 18:4138 == Rank: 0 == EvalCallBack model.eval(): dict_values([0.7597464495214397]); eval_time: 0s
